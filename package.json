@@ -1,7 +1,7 @@
 {
   "name": "awwwards2",
   "private": true,
-  "homepage": "https://KMSDINESH.github.io/Mocktails_demo_website/",
+  "homepage": "https://kmsdinesh.github.io/Mocktails_demo_website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && copy dist\\index.html dist\\404.html",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
