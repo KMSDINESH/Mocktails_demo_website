@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Mocktails_demo_website/',
+  base: '/Mocktails_demo_website',
   plugins: [react(), tailwindcss()],
 })
